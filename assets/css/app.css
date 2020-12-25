@@ -1,0 +1,13 @@
+img {
+    width: 25%;
+    margin: auto;
+}
+main {
+    display: grid;
+    height: 100%;
+    grid-template: repeat(6, 10vh) / repeat(3, 1fr);
+    flex-wrap: wrap;
+}
+.form-control {
+    width: 500px;
+}
